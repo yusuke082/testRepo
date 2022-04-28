@@ -1,6 +1,6 @@
-// window.onlode{
+// window.onlode = function(){
 //  Alert("ページが読み込まれました。");
-// }
+// };
 console.log("hellow world");
 
 window.onload = async function(){
