@@ -8,6 +8,6 @@ window.onload = async function(){
   const blocknumber = await provider.getBlockNumber();
   alert(blocknumber);
   const addresses = await ethereum.request({method:'eth_requestAccounts'});
-  const signer = await provider.getSigner();
+  //const signer = await provider.getSigner();
   alert(addresses[0]);
 }
